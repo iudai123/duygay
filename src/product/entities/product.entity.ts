@@ -10,4 +10,13 @@ export class ProductEntity {
 
     @Column('text')
     descrip: string;
+
+    @Column('text')
+    sex: string;
+
+    @Column('text')
+    catelog: string;
+
+    @Column('text')
+    prices: string;
 }
